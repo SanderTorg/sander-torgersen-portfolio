@@ -1,18 +1,14 @@
-# Your project title
-
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
-
-A simple overview of the use/purpose of the project.
+# My Portfolio
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+This is my portfolio where i display all my previous projects for you to see
 
-You can add some bullet points if you'd like to:
+Some listed descriptions of my projects so far:
 
-- List item 1
-- List item 2
-- List item 3
+- My blog website is my exam i did the 2 semester. It shows how an owner can manage their blog and how the regular users view others blog. There is a difference between access of the client who own it such as creating, editing and deleting. The owner also have an LogIn and Register form.
+- My RainyLands website is the improved version of mine and Nirush's RainyDays project. RainyDay where it only had HTML and CSS. I renamed it to RainyLands and made it with JavaScript so it was possible to add items in a cart and display items from an API.
+- My ScienceMuseum project is only HTML and CSS. It shows a quality in responsive ability and feel like it shows how a real Scince Museum could make it. But could be better in some aspects such as adding JS to make contact form real or selling actuall tickets for shows but that would require a long time coding.
 
 ## Built With
 
@@ -55,11 +51,9 @@ Here you can detail any information you want to provide regarding contributing t
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+[My GitHub profile](https://github.com/SanderTorg)
 
-[My Twitter page](www.twitter.com)
-
-[My LinkedIn page](www.linkedin.com)
+[My LinkedIn page](https://www.linkedin.com/in/sander-torgersen-545456336/)
 
 ## License
 
