@@ -45,15 +45,10 @@ body {
   --color-black: #050505;
   --color-white: white;
 
-  --bg-color-menu: #3672b6;
-  --bg-nav-foot: linear-gradient(#021f44, #3672b6);
   --bg-color-white: white;
   --bg-color-black: #050505;
 
   --bg-transparent: rgba(0, 0, 0, 0.459);
-
-  --padding-section-no-top: 0rem 30px 2rem 30px;
-  --padding-section-with-top: 2rem 30px 2rem 30px;
 }
 
 ul {
