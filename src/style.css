@@ -24,6 +24,7 @@ body {
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
+  align-items: center;
   height: 100dvh;
   font-size: 100%;
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -32,7 +33,7 @@ body {
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: var(--bg-color-black);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -41,8 +42,6 @@ body {
 }
 
 :root {
-  --font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-
   --color-black: #050505;
   --color-white: white;
 
