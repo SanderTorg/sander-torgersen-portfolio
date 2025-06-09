@@ -58,12 +58,15 @@ Here you can detail any information you want to provide regarding contributing t
 [My portfolio web link](https://sandertorgersen.netlify.app/)
 
 [My Sience Museum GitHub](https://github.com/SanderTorg/semester-project1-sander-torgersen)
+
 [My Sience Museum web link](https://santorg-sciencemuseum.netlify.app/)
 
 [My RainyLands GitHub](https://github.com/SanderTorg/fed1-rainylands-js1)
+
 [My RainyLands web link](https://rainylands.netlify.app/)
 
 [My WanderBlog GitHub](https://github.com/SanderTorg/vanilla-blog-site-sanderTorgersen-public)
+
 [My WanderBlog web link](https://wanderblog-sandertorg.netlify.app/)
 
 ## License
