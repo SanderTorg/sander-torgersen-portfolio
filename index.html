@@ -3,14 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is my portfolio page where everyone can see my projects and contact information."
+    />
     <title>HOME</title>
     <script type="module" src="./src/main.mjs" defer></script>
     <link rel="stylesheet" href="./src/style.css" />
   </head>
   <body>
-    <header class="flex w-full fixed bg-white z-100">
+    <header class="flex w-full fixed bg-neutral-800 z-100">
       <nav class="flex min-h-15">
-        <p class="text-black h-full flex items-center pl-5 font-bold">
+        <p class="h-full flex items-center pl-5 font-bold">
           Sander Torgersen's portfolio
         </p>
       </nav>
@@ -18,9 +22,11 @@
     <main class="w-full flex flex-col mt-15">
       <section class="justify-center flex w-full relative">
         <img
-          src="./images/hero.avif"
+          src="./images/hero.jpg"
           alt="Picture of space"
-          class="flex relative min-h-150 max-h-200 object-cover"
+          width="100"
+          height="100"
+          class="flex relative min-h-180 max-h-200 object-cover"
         />
 
         <div class="absolute flex flex-col p-5 items-center">
@@ -30,13 +36,15 @@
 
           <div class="flex h-100 max-w-96 p-10 min">
             <img
-              src="./images/rainylands.png"
+              src="./images/profil.png"
               alt="ME"
+              width="100"
+              height="100"
               class="flex object-cover"
             />
           </div>
 
-          <p class="flex text-center font-medium flex-col">
+          <p class="flex text-center font-medium flex-col max-w-80">
             My name is Sander and i'm a passionate front-end developer from
             Norway. I have learned HTML and CSS. I'm still learning JavaScript
             as it is alot, but got the medium in that area. This website is
@@ -45,22 +53,25 @@
         </div>
       </section>
 
-      <section class="flex text-center justify-center p-5">
-        <h2 class="flex capitalize font-bold">check out my projects</h2>
-      </section>
-
-      <section class="flex flex-col justify-center">
+      <section class="flex flex-col justify-center pb-10 pt-10">
+        <div class="flex text-center justify-center">
+          <h2 class="flex capitalize font-bold">check out my projects</h2>
+        </div>
         <div class="flex items-center justify-center w-full">
           <div class="flex overflow-x-auto gap-5 p-5 max-w-7xl">
             <div
               class="flex min-w-64 max-w-96 shadow-cyan-300 shadow-lg rounded-3xl"
             >
               <div class="flex flex-col p-2 border rounded-3xl gap-3">
-                <img
-                  src="./images/wanderblog.png"
-                  alt="My Semester project"
-                  class="rounded-t-2xl flex object-cover"
-                />
+                <div class="w-full flex">
+                  <img
+                    src="./images/wanderblog.png"
+                    alt="My Semester project"
+                    width="100"
+                    height="100"
+                    class="rounded-t-2xl flex object-cover"
+                  />
+                </div>
                 <p class="flex justify-center font-bold">WanderBlog</p>
                 <div class="flex justify-center">
                   <div class="c-btn-white-cont">
@@ -86,11 +97,15 @@
               class="flex min-w-64 max-w-96 shadow-cyan-300 shadow-lg rounded-3xl"
             >
               <div class="flex flex-col p-2 border rounded-3xl gap-3">
-                <img
-                  src="./images/rainylands.png"
-                  alt="My Semester project"
-                  class="rounded-t-2xl object-cover"
-                />
+                <div class="w-full flex">
+                  <img
+                    src="./images/rainylands.png"
+                    alt="My Semester project"
+                    width="100"
+                    height="100"
+                    class="rounded-t-2xl object-cover"
+                  />
+                </div>
                 <p class="flex justify-center font-bold">RainyLands</p>
                 <div class="flex justify-center">
                   <div class="c-btn-white-cont">
@@ -117,11 +132,15 @@
               class="flex min-w-64 max-w-96 shadow-cyan-300 shadow-lg rounded-3xl"
             >
               <div class="flex flex-col p-2 border rounded-3xl gap-3">
-                <img
-                  src="./images/semester-1.png"
-                  alt="My Semester project"
-                  class="rounded-t-2xl object-cover"
-                />
+                <div class="flex w-full">
+                  <img
+                    src="./images/semester-1.png"
+                    alt="My Semester project"
+                    width="100"
+                    height="100"
+                    class="rounded-t-2xl object-cover"
+                  />
+                </div>
                 <p class="flex justify-center font-bold">Sience Museum</p>
                 <div class="flex justify-center">
                   <div class="c-btn-white-cont">
@@ -148,7 +167,9 @@
         </div>
       </section>
     </main>
-    <footer class="flex gap-4 flex-wrap justify-evenly p-5 w-full">
+    <footer
+      class="flex gap-4 flex-wrap justify-evenly p-5 w-full bg-neutral-800"
+    >
       <section class="flex flex-col gap-3 items-center flex-1 min-w-56">
         <div class="flex flex-col items-center gap-3">
           <h3 class="flex capitalize font-bold">Contact Me</h3>

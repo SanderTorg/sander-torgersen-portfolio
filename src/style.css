@@ -42,7 +42,6 @@ body {
 }
 
 :root {
-  --size-xxs: 14px;
   --size-xs: 16px;
   --size-s: 18px;
   --size-m: 20px;
@@ -80,6 +79,7 @@ h4,
 h5,
 h6 {
   margin: 0;
+  font-size: var(--size-xs);
 }
 
 img {
