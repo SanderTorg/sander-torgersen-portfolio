@@ -12,8 +12,11 @@
     <link rel="stylesheet" href="./src/style.css" />
   </head>
   <body>
-    <header class="flex w-full fixed bg-neutral-800 z-100">
-      <nav class="flex min-h-15">
+    <header class="flex w-full">
+      <nav
+        class="flex min-h-15 w-full fixed bg-neutral-800 z-100 items-center"
+        id="hide-header"
+      >
         <p class="h-full flex items-center pl-5 font-bold">
           Sander Torgersen's portfolio
         </p>
@@ -29,26 +32,29 @@
           class="flex relative min-h-180 max-h-200 object-cover"
         />
 
-        <div class="absolute flex flex-col p-5 items-center">
+        <div class="absolute flex flex-col p-5 items-center gap-3">
           <h1 class="flex font-bold capitalize text-center">
             hi, Welcome to my portfolio
           </h1>
 
-          <div class="flex h-100 max-w-96 p-10 min">
+          <div class="flex h-100 max-w-96 p-0 min border-2 rounded-2xl">
             <img
               src="./images/profil.png"
               alt="ME"
               width="100"
               height="100"
-              class="flex object-cover"
+              class="flex object-cover rounded-2xl"
             />
           </div>
 
-          <p class="flex text-center font-medium flex-col max-w-80">
+          <p
+            class="flex text-center font-normal flex-col max-w-80 p-2 bg-black border-2 rounded-2xl"
+          >
             My name is Sander and i'm a passionate front-end developer from
-            Norway. I have learned HTML and CSS. I'm still learning JavaScript
-            as it is alot, but got the medium in that area. This website is
-            built with Tailwind! <span class="uppercase">crazy!!</span>
+            Norway. I love responsive websites as u scoll down to check out my
+            responsive projects. I've learned HTML and CSS. I'm currently
+            learning JavaScript, i feel like i'm mid in that area. Btw this
+            website is built with Tailwind!
           </p>
         </div>
       </section>

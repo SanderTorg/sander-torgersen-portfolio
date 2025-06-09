@@ -55,6 +55,8 @@ Here you can detail any information you want to provide regarding contributing t
 
 [My LinkedIn page](https://www.linkedin.com/in/sander-torgersen-545456336/)
 
+[My website link](https://sandertorgersen.netlify.app/)
+
 ## License
 
 You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.

@@ -83,8 +83,34 @@ h6 {
   font-size: var(--size-xs);
 }
 
+/* Added this couse of the change in h1 elements inside sections, aside, article removed the issue in lighthouse*/
+:where(h1) {
+  margin-block: 0;
+  font-size: var(--size-l);
+}
+
 img {
   width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(0, 0%, 72%);
+  border-radius: 100vh;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(0, 0%, 33%);
+  border-radius: 100vh;
+}
+
+#hide-header {
+  top: 0;
+  transition: ease-in-out 0.5s;
 }
 
 a {
@@ -95,6 +121,8 @@ a {
 a:hover {
   color: #53eafd;
 }
+
+/* UNIVERSALS */
 
 .c-btn-white-cont {
   display: flex;
