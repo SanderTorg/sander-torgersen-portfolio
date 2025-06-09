@@ -45,9 +45,9 @@ To run the app, run the following commands:
 npm run start
 ```
 
-## Contributing
+## Report
 
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+[My report](https://docs.google.com/document/d/1xfG7KQFSzbedy5NmMAH9JnO08FnLh4guBXs2c9gNrqk/edit?usp=sharing)
 
 ## Contact
 
